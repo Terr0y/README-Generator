@@ -8,7 +8,8 @@ function generateMarkdown(data) {
 ${data.description}
 
 # Table of Contents
-*[Installation](#installation)
+
+* [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
@@ -21,12 +22,15 @@ ${data.installation}
 
 ## Usage
 
+
 ${data.usage}
 
 ## Licence
+
 This project is licensed under the ${data.License} license.
+
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-//${data.license}
+
 
 ## Contributing
 
@@ -36,7 +40,7 @@ ${data.contributing}
 
 ${data.tests}
 
-## Question
+## Questions
 
 question can be directed to github
 ${data.github}

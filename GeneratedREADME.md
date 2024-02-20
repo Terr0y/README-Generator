@@ -1,12 +1,13 @@
-# generator reaadme
+# README-Generator
   https://github.com/Terr0y/README-Generator
 
 # Description
 
-the
+This app allows users to create a professional README.md file in a way that is clean, efficient, and easy to use.
 
 # Table of Contents
-*[Installation](#installation)
+
+* [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
@@ -15,29 +16,31 @@ the
 
 ## Installation
 
-the
+User need to install Node.js and run the app using inquire, fs, util 
 
 ## Usage
 
-the
+User need to run it in the terminal
 
 ## Licence
+
 This project is licensed under the undefined license.
+
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-//MIT
+
 
 ## Contributing
 
-the
+N/A
 
 ## Tests
 
-the
+User need to run node index.js into terminal
 
-## Question
+## Questions
 
 question can be directed to github
 https://github.com/Terr0y/README-Generator
 
 you can also email me following this link
-olat
+olaterry208@yahoo.com

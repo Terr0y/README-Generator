@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const { error } = require("console");
+// const { error } = require("console");
 
 // array of questions for user
 const questions = [
@@ -61,13 +61,14 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, (error) => {
-    if (error) {
-      console.log(error);
-    } else {
-      console.log("README DATA Created Successful");
-    }
-  });
+  // fs.writeFile(fileName, data, (error) => {
+  //   if (error) {
+  //     console.log(error);
+  //   } else {
+  //     console.log("README DATA Created Successful");
+  //   }
+  fs.writeFileSync(path.join(process.cwd(), fileName), data)
+  // });
 }
 
 // function to initialize program
